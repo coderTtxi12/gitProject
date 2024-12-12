@@ -17,6 +17,11 @@ app.get('/', (req, res) => {
 
 });
 
+app.post('/create-profile', (req, res) => {
+
+    console.log('About to create a profile');
+});
+
 app.listen(port, () => {
 
     console.log('Server running on port 3000');
