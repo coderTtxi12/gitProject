@@ -244,3 +244,5 @@ console.log('The result of this coin is: ' + myGoldCoin.flip());
 
 
 
+
+
